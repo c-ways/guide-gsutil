@@ -41,7 +41,7 @@ Si `gcloud not found`, vous devez renseigner le path gcloud dans vos variables d
    - L'option `-m` permet de paralléliser le transfert, accélérant ainsi le processus.
 
 Pour un fichier unique
-    ```bash
+    ```
     gsutil cp <local_file> gs://<BUCKET_NAME>/<FOLDER_WHERE_YOU_UPLOADING>
     ```
 
